@@ -135,6 +135,7 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
+}
 
 .bottom-content {
     display: flex;
@@ -165,7 +166,7 @@ footer nav {
 }
 
 footer nav a {
-    color: white;
+    color:black;
     text-decoration: none;
 }
  
