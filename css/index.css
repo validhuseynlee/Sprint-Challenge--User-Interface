@@ -71,6 +71,11 @@ p {
     margin: 0 auto;
 }
 
+.top{
+    display: flex;
+
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -111,6 +116,25 @@ p {
     align-items: center;
     justify-content: center;
 }
+.box1 {
+    width: 12.5%;
+    height: 100px;
+    background:yellow;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box2 {
+    width: 12.5%;
+    height: 100px;
+    background: teal;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
 .bottom-content {
     display: flex;
@@ -144,3 +168,4 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+ 
