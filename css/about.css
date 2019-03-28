@@ -16,8 +16,9 @@ h1, h2, h3, h4, h5 {
 
 button{
     width: 105px;
-    border: 2px solid black;
-    border-radius: 12px;
+    height: 25px;
+    border: 1px solid black;
+    border-radius: 8px;
     background-color: white;
   }
 
@@ -61,26 +62,44 @@ p {
 .content1{
     padding: 20px 2%;
     display: flex;
-    border-bottom: 1px dashed black;
+    
 }
 
+.strategy{
+    border-bottom: 1px dashed black;
+    padding-bottom: 20px;
+}
+ .how{
+    border-bottom: 1px dashed black;
+    padding-bottom: 20px;
+    margin-left: 60px;
+ }
 .content1 img{
-    width: 250px;
+    width: 100%;
 }
 
 .content2{
     display: flex;
-    border-bottom: 1px dashed black;
+  
     padding: 20px 2%;
 }
+.places{
+    border-bottom: 1px dashed black;
+    padding-bottom: 20px;
+}
 
+.collobration{
+    border-bottom: 1px dashed black;
+    
+    padding-bottom: 20px;
+    margin-left: 0px;
+}
 .content2 img{
-    width: 250px;
+    width: 90%
 }
 
 .content3{
     display: inline-block;
-    border-bottom: 1px dashed black;
     padding: 20px 2%;
 }
 
