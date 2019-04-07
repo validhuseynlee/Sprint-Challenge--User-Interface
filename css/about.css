@@ -17,9 +17,10 @@ h1, h2, h3, h4, h5 {
 button{
     width: 105px;
     height: 25px;
-    border: 1px solid black;
+    border: 2px solid black;
     border-radius: 8px;
     background-color: white;
+    margin-top: 20px;
   }
 
 p {
@@ -28,7 +29,7 @@ p {
 
 .container {
     width: 800px;
-    margin-left: 90px;
+    margin: 0 auto;
 }
 
 .top {
@@ -54,8 +55,10 @@ p {
     padding-bottom: 20px;
 }
 
-.top{
+.top-content{
     display: inline-block;
+    border-bottom: 1px dashed black;
+    padding-bottom: 20px;
   
 }
 
@@ -90,9 +93,8 @@ p {
 
 .collobration{
     border-bottom: 1px dashed black;
-    
     padding-bottom: 20px;
-    margin-left: 0px;
+    margin-left: 60px;
 }
 .content2 img{
     width: 90%
